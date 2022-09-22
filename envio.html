@@ -1,0 +1,21 @@
+<!-- <?php
+
+require_once './assets/Conn.assets.php';
+
+
+if(isset($_POST['email']) && isset($_POST['mensagem'])  && isset($_POST['projeto']) && isset($_POST['nome'])){
+    $msg = Formulario::Projetos($_POST['email'],$_POST['mensagem'],$_POST['projeto'],$_POST['nome']);
+
+    if ($msg == 1) {
+        header('Location: index.php?result=1');
+    }else{
+        if ($msg == 0) {
+            header('Location: index.php?result=0');
+        }else{
+            header('Location: index.php?result=2');
+        }
+    }
+}else{
+    header('Location: index.php?result=0');
+}
+ -->
